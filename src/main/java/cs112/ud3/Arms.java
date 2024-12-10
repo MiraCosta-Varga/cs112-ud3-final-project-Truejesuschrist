@@ -11,7 +11,7 @@ public class Arms extends User {
 
 
     @Override
-    public String catchPhrase() {
+    public String List() {
         return "Lat Pulldown \nIso-lateral row\nReverse Fly\nBicep Curl\nIncline Curl\nShrug\nCardio";
 
     }

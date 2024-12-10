@@ -22,7 +22,7 @@ public class Legs extends User {
 
     //OTHER METHODS
     @Override
-    public String catchPhrase() {
-        return "Make Sure to bend your knees and go all the way down";
+    public String List() {
+        return "Squats\nLying Leg Curl\nSeated Calf Raise\nLeg Extension";
     }
 }

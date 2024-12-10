@@ -101,6 +101,6 @@ public abstract class User {
     //ABSTRACT METHODS
 
 
-    public abstract String catchPhrase();
+    public abstract String List();
 
 }

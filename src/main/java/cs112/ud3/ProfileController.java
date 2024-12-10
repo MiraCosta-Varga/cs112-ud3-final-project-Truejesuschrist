@@ -22,7 +22,7 @@ public class ProfileController {
         String userName = Profile1.getName();
         int userLevel = Profile1.getWeight();
         int userHeight = Profile1.getHeight();
-        String catchPhrase = Profile1.catchPhrase();
+        String catchPhrase = Profile1.List();
 
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(HelloApplication.class.getResource("profile-info.fxml"));
@@ -45,7 +45,7 @@ public class ProfileController {
         String userName = Profile2.getName();
         int userLevel = Profile2.getWeight();
         int userHeight = Profile2.getHeight();
-        String catchPhrase = Profile2.catchPhrase();
+        String catchPhrase = Profile2.List();
 
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(HelloApplication.class.getResource("profile-info.fxml"));
