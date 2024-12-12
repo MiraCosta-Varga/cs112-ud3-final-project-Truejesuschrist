@@ -1,5 +1,10 @@
 package cs112.ud3;
 
+import javafx.event.ActionEvent;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.stage.Stage;
+
 public abstract class User {
     //CONSTANT VARIABLES
     public static final String DEFAULT_NAME = "JOHN DOE";

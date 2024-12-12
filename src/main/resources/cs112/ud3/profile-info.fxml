@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane prefHeight="131.0" prefWidth="257.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs112.ud3.ProfileInfoController">
+<Pane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs112.ud3.ProfileInfoController">
     <children>
         <Button fx:id="exitButton" layoutX="74.0" layoutY="61.0" mnemonicParsing="false" onAction="#onExitButtonClick" text="Exit" />
         <Label fx:id="nameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="109.0" layoutY="6.0" nodeOrientation="LEFT_TO_RIGHT" text="Name" />
