@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs112.ud3.ProfileInfoController">
+    <children>
+        <Button fx:id="exitButton" layoutX="74.0" layoutY="61.0" mnemonicParsing="false" onAction="#onExitButtonClick" text="Exit" />
+        <Label fx:id="nameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="109.0" layoutY="6.0" nodeOrientation="LEFT_TO_RIGHT" text="Name" />
+        <Label fx:id="weightLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="109.0" layoutY="23.0" nodeOrientation="LEFT_TO_RIGHT" text="Weight" />
+        <Label fx:id="heightLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="109.0" layoutY="42.0" nodeOrientation="LEFT_TO_RIGHT" text="Height" />
+        <Label layoutX="14.0" layoutY="6.0" text="Name" />
+        <Label layoutX="14.0" layoutY="23.0" text="Weight" />
+        <Label layoutX="14.0" layoutY="42.0" text="Height" />
+        <Label fx:id="quickTipLabel" layoutX="14.0" layoutY="100.0" text="Quick Tip" />
+    </children>
+</Pane>

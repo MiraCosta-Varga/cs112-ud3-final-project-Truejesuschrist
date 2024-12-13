@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.8844221105527639" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs112.ud3.ProfileController">
+    <items>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="598.0">
+            <children>
+                <ImageView fitHeight="330.0" fitWidth="200.0" layoutX="145.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../images/Goblet+Squat.png" />
+                    </image></ImageView>
+                <ImageView fitHeight="330.0" fitWidth="141.0" layoutX="348.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../images/Dumbbell-Curl-14.jpg" />
+                    </image>
+                </ImageView>
+            </children></AnchorPane>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="300.0" prefWidth="300.0">
+            <children>
+                <Button layoutX="50" layoutY="250.0" mnemonicParsing ="false" onAction="#onButtonClick" text="Save Changes"/>
+                <Label fx:id="name1" text="Name"  layoutX="20" layoutY="60.0"/>
+                <Label fx:id="weight1" text="Weight"  layoutX="20" layoutY="100.0"/>
+                <Label fx:id="height1" text="Height"  layoutX="20" layoutY="140.0"/>
+                <TextField fx:id="txtInputName1" layoutX="70.0" layoutY="60.0" />
+                <TextField fx:id="txtInputWeight1" layoutX="70.0" layoutY="100.0" />
+                <TextField fx:id="txtInputHeight1" layoutX="70.0" layoutY="140.0" />
+                <Label fx:id="name2" text="Name"  layoutX="320" layoutY="60.0"/>
+                <Label fx:id="weight2" text="Weight"  layoutX="320" layoutY="100.0"/>
+                <Label fx:id="height2" text="Height"  layoutX="320" layoutY="140.0"/>
+                <TextField fx:id="txtInputName2" layoutX="370.0" layoutY="60.0" />
+                <TextField fx:id="txtInputWeight2" layoutX="370.0" layoutY="100.0" />
+                <TextField fx:id="txtInputHeight2" layoutX="370.0" layoutY="140.0" />
+                <Label fx:id="label" layoutX="25.0" layoutY="184" text="Change your profiles here"/>
+                <Button fx:id="profileButton1" layoutX="170.0" layoutY="9.0" mnemonicParsing="false" onAction="#onProfileButtonClick1" text="Legs" />
+                <Button fx:id="profileButton2" layoutX="376.0" layoutY="9.0" mnemonicParsing="false" onAction="#onProfileButtonClick2" text="Arms" />
+                <Button fx:id="exitButton" layoutX="549.0" layoutY="9.0" mnemonicParsing="false" onAction="#onExitButtonClick" text="Exit" />
+            </children></AnchorPane>
+    </items>
+</SplitPane>
